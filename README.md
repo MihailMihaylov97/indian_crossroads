@@ -22,6 +22,13 @@ After that you can execute the code in the Agent.ipynb, as it imports the classe
 Modify the hyperparameters and the rewards in the Square_Crossroads class to check how this affects the training.
 
 **NB!** The training procedure is heavily dependant on the hyperparamters and the rewards in the Environment, which makes the training procedure prone to fluctuations.
+**NB2!** The deep neural network library used is **Pytorch**
+
+To install the latest version of Pytorch, run:
+
+```bash
+pip install torch
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
