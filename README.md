@@ -14,17 +14,20 @@ The Neural Network also estimates the sign with which the agent would take the a
 
 ## Rewards per episode for different training hyperparameters
 <img src="graphs/rewards_1.png" alt="Rewards"
-	title="Rewards per episode for different training hyperparameters" width="600" height="300" />
+	title="Rewards per episode for different training hyperparameters" width="600" height="600" />
 
 <img src="graphs/rewards_2.png" alt="Rewards"
-	title="Rewards per episode for different training hyperparameters" width="600" height="300" />
+	title="Rewards per episode for different training hyperparameters" width="600" height="600" />
 
 ## Rewards per episode for different training hyperparameters (rolling average window = 5 episodes)
 <img src="graphs/rewards_rolling_5.png" alt="Rewards"
-	title="Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)" width="300" height="300" />
+	title="Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)" width="600" height="600" />
 
 <img src="graphs/rewards_rolling_5_2.png" alt="Rewards"
-	title="Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)" width="300" height="300" />
+	title="Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)" width="600" height="600" />
+
+## Results
+The model is unstable and very dependent on the rewards in the environment. The graphs show the fluctuations of the model.
 
 
 ## Usage
