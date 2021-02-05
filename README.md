@@ -13,6 +13,14 @@ Both accelerationa and curvature are capped in the (0,1) range.
 The Neural Network also estimates the sign with which the agent would take the acceleration (negative sign means the agent will decelerate the velocity of a certain car).
 
 
+![Alt text](graphs/rewards_1.png?raw=true "Rewards per episode for different training hyperparameters")
+
+![Alt text](graphs/rewards_2.png?raw=true "Rewards per episode for different training hyperparameters")
+
+![Alt text](graphs/rewards_rolling_5.png?raw=true "Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)")
+
+![Alt text](graphs/rewards_rolling_5_2.png?raw=true "Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)")
+
 
 ## Usage
 
