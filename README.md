@@ -12,17 +12,19 @@ The actions the agent can take for each of the four cars are acceleration and cu
 Both accelerationa and curvature are capped in the (0,1) range.
 The Neural Network also estimates the sign with which the agent would take the acceleration (negative sign means the agent will decelerate the velocity of a certain car).
 
-<img src="graphs/rewards_1.png" alt="Kitten"
-	title="Rewards per episode for different training hyperparameters" width="150" height="100" />
+## Rewards per episode for different training hyperparameters
+<img src="graphs/rewards_1.png" alt="Rewards"
+	title="Rewards per episode for different training hyperparameters" width="300" height="300" />
 
+<img src="graphs/rewards_2.png" alt="Rewards"
+	title="Rewards per episode for different training hyperparameters" width="300" height="300" />
 
-![Alt text](graphs/rewards_1.png?raw=true "Rewards per episode for different training hyperparameters")
+## Rewards per episode for different training hyperparameters (rolling average window = 5 episodes)
+<img src="graphs/rewards_rolling_5.png" alt="Rewards"
+	title="Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)" width="300" height="300" />
 
-![Alt text](graphs/rewards_2.png?raw=true "Rewards per episode for different training hyperparameters")
-
-![Alt text](graphs/rewards_rolling_5.png?raw=true "Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)")
-
-![Alt text](graphs/rewards_rolling_5_2.png?raw=true "Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)")
+<img src="graphs/rewards_rolling_5_2.png" alt="Rewards"
+	title="Rolling mena rewards per episode for different training hyperparameters (window = 5 episodes)" width="300" height="300" />
 
 
 ## Usage
