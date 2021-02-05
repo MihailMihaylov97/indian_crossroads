@@ -14,10 +14,10 @@ The Neural Network also estimates the sign with which the agent would take the a
 
 ## Rewards per episode for different training hyperparameters
 <img src="graphs/rewards_1.png" alt="Rewards"
-	title="Rewards per episode for different training hyperparameters" width="300" height="300" />
+	title="Rewards per episode for different training hyperparameters" width="600" height="300" />
 
 <img src="graphs/rewards_2.png" alt="Rewards"
-	title="Rewards per episode for different training hyperparameters" width="300" height="300" />
+	title="Rewards per episode for different training hyperparameters" width="600" height="300" />
 
 ## Rewards per episode for different training hyperparameters (rolling average window = 5 episodes)
 <img src="graphs/rewards_rolling_5.png" alt="Rewards"
